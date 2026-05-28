@@ -14,7 +14,7 @@ export const Navbar = () => {
                 </a>
 
                 <div className="flex items-center gap-1">
-                    <div>
+                    <div className="glass rounded-full ">
                         {navLinks.map((link, index) => (
                             <a href={link.href} key={index}>{link.label}
                             </a>
