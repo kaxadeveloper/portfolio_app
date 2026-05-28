@@ -13,7 +13,7 @@ export const Navbar = () => {
                     PM<span className="text-primary">.</span>
                 </a>
 
-                <div>
+                <div className="flex items-center gap-1">
                     <div>
                         {navLinks.map((link, index) => (
                             <a href={link.href} key={index}>{link.label}
