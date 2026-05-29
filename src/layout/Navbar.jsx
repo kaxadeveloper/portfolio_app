@@ -35,9 +35,11 @@ export const Navbar = () => {
                 </div>
 
                 <button className="md:hidden p-2 text-foreground">
-                    <Menu />
+                    <Menu size={24}/>
                 </button>
             </nav>
+
+            <div className="md:hidden glass"></div>
         </header>
     )
 }
