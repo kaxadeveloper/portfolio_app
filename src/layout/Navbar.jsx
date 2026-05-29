@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "../components/Button";
 import { useState } from "react";
 
@@ -36,8 +36,9 @@ export const Navbar = () => {
                     <Button size="sm">Contact Me</Button>
                 </div>
 
-                <button className="md:hidden p-2 text-foreground" onClick={() => setIsMobileMenuOpen((prev) => !prev)}>
-                    <Menu size={24} />
+                <button className="md:hidden p-2 text-foreground" onClick={() => setIsMobileMenuOpen((prev) => !prev)}
+                >
+                    {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
                 </button>
             </nav>
 
