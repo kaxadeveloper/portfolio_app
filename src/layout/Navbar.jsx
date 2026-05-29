@@ -1,3 +1,5 @@
+import { Button } from "../components/Button";
+
 const navLinks = [
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
@@ -23,7 +25,9 @@ export const Navbar = () => {
                     </div>
                 </div>
 
-                
+                <div>
+                    <Button></Button>
+                </div>
             </nav>
         </header>
     )
