@@ -3,7 +3,7 @@ export const Button = ({ className, size, children }) => {
 
     return (
         <button>
-            <span>{children}</span>
+            <span className="relative flex items-center justify-center gap-2">{children}</span>
         </button>
     )
 }
