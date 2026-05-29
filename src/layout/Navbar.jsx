@@ -33,7 +33,7 @@ export const Navbar = () => {
                     <Button size="sm">Contact Me</Button>
                 </div>
 
-                <button>
+                <button className="md:hidden p-2 text-foreground">
                     
                 </button>
             </nav>
