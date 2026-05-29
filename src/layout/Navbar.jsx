@@ -32,6 +32,10 @@ export const Navbar = () => {
                 <div className="hidden md:block">
                     <Button size="sm">Contact Me</Button>
                 </div>
+
+                <button>
+                    
+                </button>
             </nav>
         </header>
     )
