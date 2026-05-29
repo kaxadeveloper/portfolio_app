@@ -50,6 +50,7 @@ export const Navbar = () => {
                             {link.label}
                         </a>
                     ))}
+                    <Button size="sm">Contact Me</Button>
                 </div>
             </div>
         </header>
