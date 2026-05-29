@@ -26,7 +26,7 @@ export const Navbar = () => {
                 </div>
 
                 <div>
-                    <Button></Button>
+                    <Button>Contact Me</Button>
                 </div>
             </nav>
         </header>
