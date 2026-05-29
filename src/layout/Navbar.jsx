@@ -35,11 +35,23 @@ export const Navbar = () => {
                 </div>
 
                 <button className="md:hidden p-2 text-foreground">
-                    <Menu size={24}/>
+                    <Menu size={24} />
                 </button>
             </nav>
 
-            <div className="md:hidden glass"></div>
+            <div className="md:hidden glass-strong">
+                <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
+                    {navLinks.map((link, index) => (
+                        <a
+                            href={link.href}
+                            key={index}
+                            className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface"
+                        >
+                            {link.label}
+                        </a>
+                    ))}
+                </div>
+            </div>
         </header>
     )
 }
