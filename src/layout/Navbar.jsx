@@ -1,3 +1,4 @@
+import { Menu } from "lucide-react";
 import { Button } from "../components/Button";
 
 const navLinks = [
@@ -34,7 +35,7 @@ export const Navbar = () => {
                 </div>
 
                 <button className="md:hidden p-2 text-foreground">
-                    
+                    <Menu />
                 </button>
             </nav>
         </header>
