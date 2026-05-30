@@ -29,7 +29,7 @@ export const Hero = () => {
                 <div>
 
                     <div>
-                        <div>
+                        <div className="animate-fade-in">
                             <span className="w-2 h-2 bg-primary rounded-full">Software Engineer • React Specialist</span>
                         </div>
                     </div>
