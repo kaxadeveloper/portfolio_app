@@ -30,7 +30,7 @@ export const Hero = () => {
 
                     <div>
                         <div>
-                            <span>Software Engineer • React Specialist</span>
+                            <span className="w-2 h-2 bg-primary rounded-full">Software Engineer • React Specialist</span>
                         </div>
                     </div>
                 </div>
