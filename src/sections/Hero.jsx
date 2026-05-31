@@ -25,8 +25,8 @@ export const Hero = () => {
                 ))}
             </div>
 
-            <div>
-                <div>
+            <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
+                <div >
 
                     <div className="space-y-8">
                         <div className="animate-fade-in">
