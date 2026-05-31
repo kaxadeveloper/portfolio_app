@@ -37,7 +37,7 @@ export const Hero = () => {
                         </div>
 
                         <div className="space-y-4">
-                            <h1>
+                            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in">
                                 Crafting <span className="text-primary glow-text">digital</span>
                                 <br />
                                 experiences with
