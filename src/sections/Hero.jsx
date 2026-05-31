@@ -26,12 +26,12 @@ export const Hero = () => {
             </div>
 
             <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
-                <div >
+                <div className="grid lg:grid-cols-2 gap-12 items-center">
 
                     <div className="space-y-8">
                         <div className="animate-fade-in">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
-                                <span className="w-2 h-2 bg-primary rounded-full" />
+                                <span className="w-2 h-2 bg-primary rounded-full " />
                                     Software Engineer • React Specialist
                             </span>
                         </div>
