@@ -32,7 +32,7 @@ export const Hero = () => {
                         <div className="animate-fade-in">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                                    Software Engineer • React Specialist
+                                Software Engineer • React Specialist
                             </span>
                         </div>
 
@@ -46,6 +46,8 @@ export const Hero = () => {
                                     precision.
                                 </span>
                             </h1>
+                            <p
+                                className="text-lg text-muted-foreground max-w-lg"></p>
                         </div>
                     </div>
 
