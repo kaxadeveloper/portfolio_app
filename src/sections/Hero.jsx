@@ -47,7 +47,9 @@ export const Hero = () => {
                                 </span>
                             </h1>
                             <p
-                                className="text-lg text-muted-foreground max-w-lg"></p>
+                                className="text-lg text-muted-foreground max-w-lg">
+                                Hi, I'm Coding Master - a software engineer specializing in React, JavaScript, Node.js. I build scalable, performant web applications that users love.
+                            </p>
                         </div>
                     </div>
 
