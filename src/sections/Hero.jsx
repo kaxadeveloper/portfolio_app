@@ -65,7 +65,7 @@ export const Hero = () => {
                         </div>
 
                         <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
-                            <span>Follow: </span>
+                            <span className="text-sm text-muted-foreground">Follow: </span>
                             {[
                                 { icon: FaGithub, href: "#" },
                                 { icon: FaLinkedin, href: "#" },
