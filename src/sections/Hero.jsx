@@ -1,5 +1,5 @@
 import { Button } from "@/components/Button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 
 export const Hero = () => {
     return (
@@ -66,6 +66,10 @@ export const Hero = () => {
                                     <line class="bottom" x1="300" y1="460" x2="-600" y2="460"></line>
                                     <line class="right" x1="300" y1="0" x2="300" y2="1380"></line>
                                 </svg>
+                                <span>
+                                    <Download />
+                                    Download CV
+                                </span>
                             </button>
                         </div>
                     </div>
