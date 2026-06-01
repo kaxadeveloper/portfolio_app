@@ -71,7 +71,7 @@ export const Hero = () => {
                                 { icon: FaLinkedin, href: "#" },
                                 { icon: FaTwitter, href: "#" },
                             ].map((social, idx) => (
-                                <a key={idx} href={social.href} >
+                                <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300" >
                                     {<social.icon />}
                                 </a>
                             ))}
