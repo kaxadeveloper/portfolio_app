@@ -1,5 +1,6 @@
 import { Button } from "@/components/Button";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 export const Hero = () => {
     return (
@@ -59,18 +60,7 @@ export const Hero = () => {
                             <Button size="lg">
                                 Contact Me <ArrowRight className="w-5 h-5" />
                             </Button>
-                            <button className="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                    <line class="top" x1="0" y1="0" x2="900" y2="0"></line>
-                                    <line class="left" x1="0" y1="460" x2="0" y2="-920"></line>
-                                    <line class="bottom" x1="300" y1="460" x2="-600" y2="460"></line>
-                                    <line class="right" x1="300" y1="0" x2="300" y2="1380"></line>
-                                </svg>
-                                <span>
-                                    <Download />
-                                    Download CV
-                                </span>
-                            </button>
+                            <AnimatedBorderButton />
                         </div>
                     </div>
 
