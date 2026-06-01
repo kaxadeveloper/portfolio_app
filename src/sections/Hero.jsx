@@ -57,11 +57,11 @@ export const Hero = () => {
 
                         <div>
                             <Button size="lg">
-                                Contact Me <ArrowRight />
+                                Contact Me <ArrowRight className="w-5 h-5" />
                             </Button>
                         </div>
                     </div>
-                     
+
                 </div>
             </div>
         </section>
