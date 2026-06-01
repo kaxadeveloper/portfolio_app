@@ -99,7 +99,7 @@
   .animation-delay-100 {
     animation-delay: 100ms;
   }
-  
+
   .animation-delay-200 {
     animation-delay: 200ms;
   }
@@ -122,5 +122,40 @@
 
   .animation-delay-800 {
     animation-delay: 800ms;
+  }
+
+  .animated-border-path {
+    fill: none;
+    stroke: transparent;
+    stroke-width: 2;
+    stroke-dasharray: 120;
+    stroke-dashoffset: 120;
+    transition: stroke 0.3s ease;
+  }
+  
+  .group:hover .animated-border-path {
+    stroke: #26c4b8;
+    animation: borderMove 1.5s linear infinite;
+  }
+  
+  @keyframes borderMove {
+    from {
+      stroke-dashoffset: 120;
+    }
+    to {
+      stroke-dashoffset: -120;
+    }
+  }
+  
+  .group:hover {
+    background: rgba(38, 196, 184, 0.15);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 0 20px rgba(38, 196, 184, 0.2);
+  }
+
+  .animated-border:hover {
+    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
   }
 }

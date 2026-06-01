@@ -2,15 +2,27 @@ import { Download } from "lucide-react"
 
 export const AnimatedBorderButton = () => {
     return (
-        <button className="relative bg-transparent border border-border text-foreground hover:border-primary/50 transition-all duration-1000 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed group px-8 py-4 text-lg font-medium rounded-full overflow-visible animate-border">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                <line class="top" x1="0" y1="0" x2="900" y2="0"></line>
-                <line class="left" x1="0" y1="460" x2="0" y2="-920"></line>
-                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"></line>
-                <line class="right" x1="300" y1="0" x2="300" y2="1380"></line>
+        <button
+            className="relative px-8 py-4 text-lg font-medium rounded-full overflow-hidden border border-border bg-transparent text-foreground group"
+        >
+            <svg
+                className="absolute inset-0 w-full h-full pointer-events-none"
+                viewBox="0 0 100 40"
+                preserveAspectRatio="none"
+            >
+                <rect
+                    x="1"
+                    y="1"
+                    width="98"
+                    height="38"
+                    rx="20"
+                    ry="20"
+                    className="animated-border-path"
+                />
             </svg>
-            <span>
-                <Download />
+
+            <span className="relative z-10 flex items-center justify-center gap-2">
+                <Download className="w-5 h-5" />
                 Download CV
             </span>
         </button>
