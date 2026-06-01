@@ -1,4 +1,5 @@
 import { Button } from "@/components/Button";
+import { ArrowRight } from "lucide-react";
 
 export const Hero = () => {
     return (
@@ -56,7 +57,7 @@ export const Hero = () => {
 
                         <div>
                             <Button size="lg">
-                              
+                                Contact Me <ArrowRight />
                             </Button>
                         </div>
                     </div>
