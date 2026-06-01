@@ -59,7 +59,7 @@ export const Hero = () => {
                             <Button size="lg">
                                 Contact Me <ArrowRight className="w-5 h-5" />
                             </Button>
-                            <button>
+                            <button className="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
                                     <line class="top" x1="0" y1="0" x2="900" y2="0"></line>
                                     <line class="left" x1="0" y1="460" x2="0" y2="-920"></line>
