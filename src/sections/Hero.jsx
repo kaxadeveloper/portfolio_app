@@ -120,7 +120,13 @@ export const Hero = () => {
                 <div>
                     <p>Technologies I work with</p>
                     <div>
-                        
+                        <div>
+                            {[...skills, ...skills].map((skill, idx) => (
+                                <div key={idx}>
+                                    <span>{skill}</span>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
