@@ -78,7 +78,11 @@ export const Hero = () => {
                         </div>
                     </div>
                     <div>
-                        
+                        <div>
+                            <div>
+                                <img src="/profile.png" alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
