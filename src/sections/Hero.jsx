@@ -117,7 +117,7 @@ export const Hero = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="mt-20 animate-fade-in animation-delay-600">
                     <p>Technologies I work with</p>
                     <div>
                         <div>
