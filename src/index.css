@@ -55,6 +55,11 @@
   .glow-text {
     text-shadow: 0 0 30px color-mix(in srgb, var(--color-primary) 50%, transparent);
   }
+
+  .glow-border {
+    box-shadow: 0 0 20px color-mix(in srgb, var(--color-primary) 20%, transparent),
+      inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
+  }
 }
 
 @layer utilities {
@@ -132,21 +137,22 @@
     stroke-dashoffset: 120;
     transition: stroke 0.3s ease;
   }
-  
+
   .group:hover .animated-border-path {
     stroke: #26c4b8;
     animation: borderMove 1.5s linear infinite;
   }
-  
+
   @keyframes borderMove {
     from {
       stroke-dashoffset: 120;
     }
+
     to {
       stroke-dashoffset: -120;
     }
   }
-  
+
   .group:hover {
     background: rgba(38, 196, 184, 0.15);
     backdrop-filter: blur(16px);

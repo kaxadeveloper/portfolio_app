@@ -79,7 +79,7 @@ export const Hero = () => {
                     </div>
                     <div className="realative animate-fade-in animation-delay-300">
                         <div className="relative max-w-md mx-auto">
-                            <div>
+                            <div className="relative glass rounded-3xl p-2 glow-border">
                                 <img src="/profile.png" alt="CodingMaster" className="w-full aspect-[4/5] object-cover rounded-2xl" />
                             </div>
                         </div>
