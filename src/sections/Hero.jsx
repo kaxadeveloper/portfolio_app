@@ -116,6 +116,13 @@ export const Hero = () => {
                         </div>
                     </div>
                 </div>
+
+                <div>
+                    <p>Technologies I work with</p>
+                    <div>
+                        
+                    </div>
+                </div>
             </div>
         </section>
     )
