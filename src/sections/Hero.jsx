@@ -80,7 +80,7 @@ export const Hero = () => {
                     <div>
                         <div>
                             <div>
-                                <img src="/profile.png" alt="" />
+                                <img src="/profile.png" alt="CodingMaster" className="w-full aspect-[4/5] object-cover rounded-2xl" />
                             </div>
                         </div>
                     </div>
