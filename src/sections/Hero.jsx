@@ -3,6 +3,19 @@ import { ArrowRight } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
+const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "Next.js",
+    "Node.js",
+    "GitHub Actions",
+    "Tailwind CSS",
+    "MongoDB",
+];
+
 export const Hero = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
