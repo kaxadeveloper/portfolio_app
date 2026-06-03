@@ -42,8 +42,13 @@ export const About = () => {
 
                         <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
                             Building the future,
-                            <span>one component at a time.</span>
+                            <span className="font-serif italic font-normal text-white">
+                                {" "}
+                                one component at a time.
+                            </span>
                         </h2>
+
+                        
                     </div>
                 </div>
             </div>
