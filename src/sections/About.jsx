@@ -59,6 +59,12 @@ export const About = () => {
                                 I am continuously learning and staying up to date with the latest technologies and industry trends. I enjoy solving challenging problems, collaborating with teams, and contributing to projects that make a meaningful impact. Whether working independently or as part of a development team, I am committed to delivering high-quality solutions and continuously improving my skills as a software engineer.
                             </p>
                         </div>
+
+                        <div>
+                            <p>
+                                "My mission is to transform ideas into powerful digital products that are fast, intuitive, and meaningful—creating experiences that delight users, drive business value, and stand the test of time through clean, maintainable code."
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
