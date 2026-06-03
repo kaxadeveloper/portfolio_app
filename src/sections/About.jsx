@@ -32,10 +32,15 @@ export const About = () => {
         <section id="about" className="py-32 relative overflow-hidden">
             <div>
                 <div>
-                  
-                  <div>
-                    <span>About Me</span>
-                  </div>
+
+                    <div>
+                        <span>About Me</span>
+                    </div>
+
+                    <h2>
+                        Building the future,
+                        <span>one component at a time.</span>
+                    </h2>
                 </div>
             </div>
         </section>
