@@ -35,7 +35,9 @@ export const About = () => {
 
                     <div className="space-y-8">
                         <div className="animate-fade-in">
-                            <span >About Me</span>
+                            <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
+                                About Me
+                            </span>
                         </div>
 
                         <h2>
