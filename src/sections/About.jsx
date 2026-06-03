@@ -48,7 +48,7 @@ export const About = () => {
                             </span>
                         </h2>
 
-                        <div>
+                        <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                             <p>
                                 I am a passionate Full-Stack JavaScript Developer with over three years of professional experience building modern, scalable, and user-focused web applications. My expertise spans JavaScript, TypeScript, React.js, Next.js, and Node.js, allowing me to develop both intuitive front-end interfaces and robust back-end solutions. I enjoy transforming complex ideas into clean, efficient, and maintainable code that delivers real value to users and businesses.
                             </p>
