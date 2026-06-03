@@ -48,7 +48,17 @@ export const About = () => {
                             </span>
                         </h2>
 
-                        
+                        <div>
+                            <p>
+                                I am a passionate Full-Stack JavaScript Developer with over three years of professional experience building modern, scalable, and user-focused web applications. My expertise spans JavaScript, TypeScript, React.js, Next.js, and Node.js, allowing me to develop both intuitive front-end interfaces and robust back-end solutions. I enjoy transforming complex ideas into clean, efficient, and maintainable code that delivers real value to users and businesses.
+                            </p>
+                            <p>
+                                Throughout my career, I have worked on a variety of projects ranging from responsive websites and interactive dashboards to full-stack applications. I focus on writing high-quality code, following best practices, and creating seamless user experiences. My experience with modern development tools, component-based architectures, API integrations, and performance optimization enables me to build applications that are fast, reliable, and easy to scale.
+                            </p>
+                            <p>
+                                I am continuously learning and staying up to date with the latest technologies and industry trends. I enjoy solving challenging problems, collaborating with teams, and contributing to projects that make a meaningful impact. Whether working independently or as part of a development team, I am committed to delivering high-quality solutions and continuously improving my skills as a software engineer.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
