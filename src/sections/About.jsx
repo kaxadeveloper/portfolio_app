@@ -33,14 +33,16 @@ export const About = () => {
             <div className="container mx-auto px-6 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-                    <div>
-                        <span>About Me</span>
-                    </div>
+                    <div className="space-y-8">
+                        <div className="animate-fade-in">
+                            <span >About Me</span>
+                        </div>
 
-                    <h2>
-                        Building the future,
-                        <span>one component at a time.</span>
-                    </h2>
+                        <h2>
+                            Building the future,
+                            <span>one component at a time.</span>
+                        </h2>
+                    </div>
                 </div>
             </div>
         </section>
