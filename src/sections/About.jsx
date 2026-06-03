@@ -40,7 +40,7 @@ export const About = () => {
                             </span>
                         </div>
 
-                        <h2>
+                        <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
                             Building the future,
                             <span>one component at a time.</span>
                         </h2>
