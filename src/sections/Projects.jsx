@@ -40,7 +40,7 @@ const projects = [
 export const Projects = () => {
     return (
         <section id="about" className="py-32 relative overflow-hidden">
-
+              <div className="container mx-auto px-6 relative z-10"></div>
         </section>
     )
 }
