@@ -44,7 +44,9 @@ export const Projects = () => {
             <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
             <div className="container mx-auto px-6 relative z-10">
                 <div className="text-center mx-auto max-w-3xl mb-16">
-                    <span>Featured Work</span>
+                    <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
+                        Featured Work
+                    </span>
                     <h2>
                         Projects that
                         <span> make an impact.</span>
