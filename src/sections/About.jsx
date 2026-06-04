@@ -74,6 +74,7 @@ export const About = () => {
                                     <item.icon />
                                 </div>
                                 <h3>{item.title}</h3>
+                                <p>{item.description}</p>
                             </div>
                         ))}
                     </div>
