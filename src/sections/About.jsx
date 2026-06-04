@@ -66,6 +66,17 @@ export const About = () => {
                             </p>
                         </div>
                     </div>
+
+                    <div className="grid sm:grid-cols-2 gap-6">
+                        {highlights.map((item, idx) => (
+                            <div>
+                                <div>
+                                    <item.icon />
+                                </div>
+                                <h3>{item.title}</h3>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>
