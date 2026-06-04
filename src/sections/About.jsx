@@ -69,7 +69,8 @@ export const About = () => {
 
                     <div className="grid sm:grid-cols-2 gap-6">
                         {highlights.map((item, idx) => (
-                            <div>
+                            <div key={idx} className="glass p-6 rounded-2xl animate-fade-in">
+                                
                                 <div>
                                     <item.icon />
                                 </div>
