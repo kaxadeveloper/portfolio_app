@@ -69,7 +69,7 @@ export const Projects = () => {
                             <div className="relative overflow-hidden aspect-video">
                                 <img
                                     src={project.image}
-                                    alt={project.title} className="w-full h-full object-cover transition-transform duration-700"
+                                    alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />
                             </div>
                         </div>
