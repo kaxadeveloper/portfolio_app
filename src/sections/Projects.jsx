@@ -97,7 +97,7 @@ export const Projects = () => {
                                 <p className="text-muted-foreground text-sm">
                                     {project.description}
                                 </p>
-                                <div>{project.tags.map((tag, tagIdx) => (
+                                <div className="flex flex-wrap gap-2">{project.tags.map((tag, tagIdx) => (
                                     <span>{tag}</span>
                                 ))}</div>
                             </div>
