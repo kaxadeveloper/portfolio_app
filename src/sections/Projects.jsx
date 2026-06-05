@@ -84,13 +84,13 @@ export const Projects = () => {
                                     </a>
                                     <a
                                         href={project.github} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transistion-all">
-                                        <FaGithub className="w-5 h-5"/>
+                                        <FaGithub className="w-5 h-5" />
                                     </a>
                                 </div>
                             </div>
                             <div className="p-6 space-y-4">
                                 <div className="flex items-start justify-between">
-                                    <h3>{project.title}</h3>
+                                    <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">{project.title}</h3>
                                     <ArrowUpRight />
                                 </div>
                                 <p>{project.description}</p>
