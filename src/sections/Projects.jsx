@@ -98,7 +98,9 @@ export const Projects = () => {
                                     {project.description}
                                 </p>
                                 <div className="flex flex-wrap gap-2">{project.tags.map((tag, tagIdx) => (
-                                    <span>{tag}</span>
+                                    <span key={tagIdx} className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50 text-muted-foreground hover:border-primary/50 hover:text-primary transition-all duration-300">
+                                        {tag}
+                                    </span>
                                 ))}</div>
                             </div>
                         </div>
