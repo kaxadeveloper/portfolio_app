@@ -91,7 +91,7 @@ export const Projects = () => {
                             <div>
                                 <div>
                                     <h3>{project.title}</h3>
-                                    
+                                    <ArrowUpRight />
                                 </div>
                             </div>
                         </div>
