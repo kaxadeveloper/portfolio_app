@@ -82,7 +82,8 @@ export const Projects = () => {
                                         href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transistion-all">
                                         <ArrowUpRight className="w-5 h-5" />
                                     </a>
-                                    <a>
+                                    <a
+                                        href={project.github} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transistion-all">
                                         <FaGithub />
                                     </a>
                                 </div>
