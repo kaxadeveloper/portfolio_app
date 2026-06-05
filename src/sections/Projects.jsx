@@ -89,7 +89,7 @@ export const Projects = () => {
                                 </div>
                             </div>
                             <div className="p-6 space-y-4">
-                                <div>
+                                <div className="flex items-start justify-between">
                                     <h3>{project.title}</h3>
                                     <ArrowUpRight />
                                 </div>
