@@ -88,6 +88,12 @@ export const Projects = () => {
                                     </a>
                                 </div>
                             </div>
+                            <div>
+                                <div>
+                                    <h3>{project.title}</h3>
+                                    
+                                </div>
+                            </div>
                         </div>
                     ))}
                 </div>
