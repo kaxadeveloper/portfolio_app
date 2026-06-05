@@ -58,6 +58,10 @@ export const Projects = () => {
                         A selection of my recent work, from complex web applications to innovative tools that solve real-world problems.
                     </p>
                 </div>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                    
+                </div>
             </div>
         </section>
     );
