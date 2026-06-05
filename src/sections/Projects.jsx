@@ -60,7 +60,16 @@ export const Projects = () => {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8">
-                    
+                    {projects.map((project, idx) => (
+                        <div>
+                            <div>
+                                <img
+                                    src={project.image}
+                                    alt={project.title} className="w-full h-full object-cover transition-transform duration-700"
+                                />
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
