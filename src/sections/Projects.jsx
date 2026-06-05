@@ -88,12 +88,15 @@ export const Projects = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div>
+                            <div className="p-6 space-y-4">
                                 <div>
                                     <h3>{project.title}</h3>
                                     <ArrowUpRight />
                                 </div>
                                 <p>{project.description}</p>
+                                <div>{project.tags.map((tag, tagIdx) => (
+                                    <span>{tag}</span>
+                                ))}</div>
                             </div>
                         </div>
                     ))}
