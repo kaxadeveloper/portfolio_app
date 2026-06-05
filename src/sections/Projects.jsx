@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 const projects = [
     {
@@ -79,6 +80,9 @@ export const Projects = () => {
                                 <div>
                                     <a>
                                         <ArrowUpRight />
+                                    </a>
+                                    <a>
+                                        <FaGithub />
                                     </a>
                                 </div>
                             </div>
