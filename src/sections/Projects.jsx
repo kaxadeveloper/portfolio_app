@@ -66,7 +66,7 @@ export const Projects = () => {
                             className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
                             style={{ animationDelay: `${(idx + 1) * 100}ms` }}
                         >
-                            <div>
+                            <div className="relative overflow-hidden aspect-video">
                                 <img
                                     src={project.image}
                                     alt={project.title} className="w-full h-full object-cover transition-transform duration-700"
