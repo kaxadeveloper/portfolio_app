@@ -1,3 +1,5 @@
+import { ArrowUpRight } from "lucide-react";
+
 const projects = [
     {
         title: "Fintech Dashboard",
@@ -74,6 +76,11 @@ export const Projects = () => {
                                 <div
                                     className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60"
                                 />
+                                <div>
+                                    <a>
+                                        <ArrowUpRight />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     ))}
