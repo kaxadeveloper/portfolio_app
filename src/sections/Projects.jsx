@@ -54,6 +54,9 @@ export const Projects = () => {
                             make an impact.
                         </span>
                     </h2>
+                    <p>
+                        A selection of my recent work, from complex web applications to innovative tools that solve real-world problems.
+                    </p>
                 </div>
             </div>
         </section>
