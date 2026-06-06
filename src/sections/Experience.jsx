@@ -53,7 +53,8 @@ export const Experience = () => {
                     >
                         Career Journey
                     </span>
-                    <h2>
+                    <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground"
+                    >
                         Experience that <span> speaks volumes.</span>
                     </h2>
                 </div>
