@@ -49,8 +49,13 @@ export const Experience = () => {
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="max-w-3xl mb-16">
-                    <span>Career Journey</span>
-                    
+                    <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in"
+                    >
+                        Career Journey
+                    </span>
+                    <h2>
+                        Experience that <span> speaks volumes.</span>
+                    </h2>
                 </div>
             </div>
         </section>
