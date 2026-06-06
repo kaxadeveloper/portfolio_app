@@ -66,6 +66,10 @@ export const Experience = () => {
                         A timeline of my professional growth, from curious beginner to senior engineer leading teams and building products at scale.
                     </p>
                 </div>
+
+                <div className="relative">
+                    <div className="timeline-glow"/>
+                </div>
             </div>
         </section>
     )
