@@ -1,4 +1,4 @@
-import { Quote } from "lucide-react";
+import { ChevronLeft, Quote } from "lucide-react";
 
 const testimonials = [
     {
@@ -79,6 +79,12 @@ export const Testimonials = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div>
+                            <button>
+                                <ChevronLeft />
+                            </button>
                         </div>
                     </div>
                 </div>
