@@ -1,4 +1,5 @@
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
+import { useState } from "react";
 
 const testimonials = [
     {
@@ -32,6 +33,9 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
+    const [activeIdx, setActiveIdx] = useState(0);
+
+    
     return (
         <section
             id="testimonials"
