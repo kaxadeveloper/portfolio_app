@@ -1,3 +1,5 @@
+import { Quote } from "lucide-react";
+
 const testimonials = [
     {
         quote:
@@ -54,7 +56,9 @@ export const Testimonials = () => {
                 <div>
                     <div>
                         <div>
-                            
+                            <div>
+                                <Quote />
+                            </div>
                         </div>
                     </div>
                 </div>
