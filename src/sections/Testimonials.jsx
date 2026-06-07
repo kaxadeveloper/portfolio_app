@@ -1,4 +1,4 @@
-import { ChevronLeft, Quote } from "lucide-react";
+import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
     {
@@ -84,6 +84,16 @@ export const Testimonials = () => {
                         <div>
                             <button>
                                 <ChevronLeft />
+                            </button>
+
+                            <div>
+                                {testimonials.map((_, idx) => (
+                                    <button />
+                                ))}
+                            </div>
+
+                            <button>
+                                <ChevronRight />
                             </button>
                         </div>
                     </div>
