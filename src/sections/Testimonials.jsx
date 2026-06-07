@@ -64,7 +64,12 @@ export const Testimonials = () => {
                                 {testimonials[0].quote}
                             </blockquote>
 
-                            
+                            <div>
+                                <img
+                                    src={testimonials[0].avatar}
+                                    alt={testimonials[0].author}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
