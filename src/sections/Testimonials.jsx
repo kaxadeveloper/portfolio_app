@@ -81,7 +81,7 @@ export const Testimonials = () => {
                             </div>
                         </div>
 
-                        <div>
+                        <div className="flex items-center justify-center gap-4 mt-8">
                             <button>
                                 <ChevronLeft />
                             </button>
