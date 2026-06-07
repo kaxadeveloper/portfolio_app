@@ -69,6 +69,14 @@ export const Testimonials = () => {
                                     src={testimonials[0].avatar}
                                     alt={testimonials[0].author}
                                 />
+                                <div>
+                                    <div>
+                                        {testimonials[0].author}
+                                    </div>
+                                    <div>
+                                        {testimonials[0].role}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
