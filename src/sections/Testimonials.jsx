@@ -82,7 +82,7 @@ export const Testimonials = () => {
                         </div>
 
                         <div className="flex items-center justify-center gap-4 mt-8">
-                            <button>
+                            <button className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all">
                                 <ChevronLeft />
                             </button>
 
@@ -92,7 +92,7 @@ export const Testimonials = () => {
                                 ))}
                             </div>
 
-                            <button>
+                            <button className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all">
                                 <ChevronRight />
                             </button>
                         </div>
