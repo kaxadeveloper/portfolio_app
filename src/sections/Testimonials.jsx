@@ -52,7 +52,11 @@ export const Testimonials = () => {
                 </div>
 
                 <div>
-                    
+                    <div>
+                        <div>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
