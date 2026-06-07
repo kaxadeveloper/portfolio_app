@@ -53,8 +53,8 @@ export const Testimonials = () => {
                     </h2>
                 </div>
 
-                <div>
-                    <div>
+                <div className="max-w-4xl mx-auto">
+                    <div >
                         <div>
                             <div>
                                 <Quote />
