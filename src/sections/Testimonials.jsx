@@ -59,6 +59,12 @@ export const Testimonials = () => {
                             <div>
                                 <Quote />
                             </div>
+
+                            <blockquote>
+                                {testimonials[0].quote}
+                            </blockquote>
+
+                            
                         </div>
                     </div>
                 </div>
