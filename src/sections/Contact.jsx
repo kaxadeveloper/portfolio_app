@@ -44,6 +44,14 @@ export const Contact = () => {
                         Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can work together.
                     </p>
                 </div>
+
+                <div>
+                    <div>
+                        <form>
+                            
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     );
