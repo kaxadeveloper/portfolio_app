@@ -59,7 +59,7 @@ export const Contact = () => {
                             </div>
 
                             <div>
-                                <label>Name</label>
+                                <label>Message</label>
                                 <input />
                             </div>
                         </form>
