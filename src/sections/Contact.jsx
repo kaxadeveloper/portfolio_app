@@ -46,7 +46,7 @@ export const Contact = () => {
                 </div>
 
                 <div>
-                    <div>
+                    <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
                         <form>
                             <div>
                                 <label>Name</label>
