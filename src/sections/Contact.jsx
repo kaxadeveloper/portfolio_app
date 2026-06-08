@@ -20,5 +20,9 @@ const contactInfo = [
 ];
 
 export const Contact = () => {
-    return <section></section>
-}
+    return (
+        <section id="contact" className="py-32 relative overflow-hidden">
+           
+        </section>
+    );
+};
