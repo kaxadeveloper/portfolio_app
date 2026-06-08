@@ -54,7 +54,11 @@ export const Contact = () => {
                                 >
                                     Name
                                 </label>
-                                <input id="name" />
+                                <input
+                                    id="name"
+                                    type="text"
+                                    className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+                                />
                             </div>
 
                             <div>
