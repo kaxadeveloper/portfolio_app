@@ -48,7 +48,10 @@ export const Contact = () => {
                 <div>
                     <div>
                         <form>
-                            
+                            <div>
+                                <label>Name</label>
+                                <input />
+                            </div>
                         </form>
                     </div>
                 </div>
