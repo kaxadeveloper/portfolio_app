@@ -57,6 +57,8 @@ export const Contact = () => {
                                 <input
                                     id="name"
                                     type="text"
+                                    required
+                                    placeholder="Your name..."
                                     className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
                                 />
                             </div>
@@ -67,7 +69,13 @@ export const Contact = () => {
                                 >
                                     Email
                                 </label>
-                                <input />
+                                <input
+                                    id="email"
+                                    type="email"
+                                    required
+                                    placeholder="your@email.com"
+                                    className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+                                />
                             </div>
 
                             <div>
@@ -76,7 +84,12 @@ export const Contact = () => {
                                 >
                                     Message
                                 </label>
-                                <input />
+                                <textarea
+                                    required
+                                    rows={5}
+                                    id="message"
+                                    className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
+                                />
                             </div>
                         </form>
                     </div>
