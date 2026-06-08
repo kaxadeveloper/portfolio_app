@@ -52,6 +52,16 @@ export const Contact = () => {
                                 <label>Name</label>
                                 <input />
                             </div>
+
+                            <div>
+                                <label>Email</label>
+                                <input />
+                            </div>
+
+                            <div>
+                                <label>Name</label>
+                                <input />
+                            </div>
                         </form>
                     </div>
                 </div>
