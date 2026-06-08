@@ -58,12 +58,20 @@ export const Contact = () => {
                             </div>
 
                             <div>
-                                <label>Email</label>
+                                <label
+                                    htmlFor="email" className="block text-sm font-medium mb-2"
+                                >
+                                    Email
+                                </label>
                                 <input />
                             </div>
 
                             <div>
-                                <label>Message</label>
+                                <label
+                                    htmlFor="message" className="block text-sm font-medium mb-2"
+                                >
+                                    Message
+                                </label>
                                 <input />
                             </div>
                         </form>
