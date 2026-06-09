@@ -41,13 +41,15 @@ export const Contact = () => {
         setIsLoading(true);
         setSubmitStatus({ type: null, message: "" });
         try {
-
+            const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+            const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+            const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
         } catch (err) {
 
         } finally {
             setIsLoading(false)
         }
-    }
+    };
     return (
         <section id="contact" className="py-32 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full">
