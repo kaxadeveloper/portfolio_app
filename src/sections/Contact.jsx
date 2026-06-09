@@ -29,7 +29,7 @@ export const Contact = () => {
         email: "",
         message: ""
     })
-
+    
     const handleSubmit = async (e) => {
         e.preventDefault();
     }
