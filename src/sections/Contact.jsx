@@ -30,15 +30,22 @@ export const Contact = () => {
         message: "",
     });
     const [isLoading, setIsLoading] = useState(false);
-    
-    
+    const [submitStatus, setSubmitStatus] = useState({
+        type: null,
+        message: "",
+    });
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        setIsLoading(true);
+        setSubmitStatus({ type: null, message: "" });
         try {
 
         } catch (err) {
-            
+
+        } finally {
+            setIsLoading(false)
         }
     }
     return (
