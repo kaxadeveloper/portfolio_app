@@ -27,11 +27,19 @@ export const Contact = () => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
-        message: ""
-    })
+        message: "",
+    });
+    const [isLoading, setIsLoading] = useState(false);
+    
     
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        try {
+
+        } catch (err) {
+            
+        }
     }
     return (
         <section id="contact" className="py-32 relative overflow-hidden">
