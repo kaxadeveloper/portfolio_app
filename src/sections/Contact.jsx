@@ -24,11 +24,15 @@ const contactInfo = [
 ];
 
 export const Contact = () => {
-    const [] = useState({
+    const [formData, setFormData] = useState({
         name: "",
         email: "",
         message: ""
     })
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+    }
     return (
         <section id="contact" className="py-32 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full">
@@ -66,6 +70,10 @@ export const Contact = () => {
                                     type="text"
                                     required
                                     placeholder="Your name..."
+                                    value={formData.name}
+                                    onChange={(e) =>
+                                        setFormData({ ...formData, name: e.target.value })
+                                    }
                                     className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
                                 />
                             </div>
@@ -81,6 +89,10 @@ export const Contact = () => {
                                     type="email"
                                     required
                                     placeholder="your@email.com"
+                                    value={formData.email}
+                                    onChange={(e) =>
+                                        setFormData({ ...formData, email: e.target.value })
+                                    }
                                     className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
                                 />
                             </div>
@@ -94,6 +106,10 @@ export const Contact = () => {
                                 <textarea
                                     required
                                     rows={5}
+                                    value={formData.message}
+                                    onChange={(e) =>
+                                        setFormData({ ...formData, message: e.target.value })
+                                    }
                                     id="message"
                                     className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
                                 />
