@@ -93,7 +93,7 @@ export const Contact = () => {
                                 />
                             </div>
 
-                            <Button>
+                            <Button className="w-full" type="submit" size="lg">
                                 Send Message
                                 <Send />
                             </Button>
