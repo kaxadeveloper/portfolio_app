@@ -176,6 +176,7 @@ export const Contact = () => {
                                     ) : (
                                         <AlertCircle className="w-5 h-5 flex-shrink-0" />
                                     )}
+                                    <p className="text-sm">{submitStatus.message}</p>
                                 </div>
                             )}
                         </form>
