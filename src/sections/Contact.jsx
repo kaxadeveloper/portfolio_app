@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from "lucide-react";
 import { Button } from "@/components/Button";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -164,10 +164,20 @@ export const Contact = () => {
                                 ) : (
                                     <>
                                         Send Message
-                                        <Send className="w-5 h-5"/>
+                                        <Send className="w-5 h-5" />
                                     </>
                                 )}
                             </Button>
+
+                            {submitStatus.type && (
+                                <div>
+                                    {submitStatus.type === "success" ? (
+                                        <CheckCircle className="w-5 h-5 flex-shrink-0" />
+                                    ) : (
+                                        <AlertCircle className="w-5 h-5 flex-shrink-0" />
+                                    )}
+                                </div>
+                            )}
                         </form>
                     </div>
                 </div>
