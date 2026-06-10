@@ -156,14 +156,22 @@ export const Contact = () => {
                                 />
                             </div>
 
-                            <Button className="w-full" type="submit" size="lg">
-                                Send Message
-                                <Send />
+                            <Button className="w-full" type="submit" size="lg" disabled={isLoading}>
+                                {isLoading ? (
+                                    <>
+                                        Sending...
+                                    </>
+                                ) : (
+                                    <>
+                                        Send Message
+                                        <Send className="w-5 h-5"/>
+                                    </>
+                                )}
                             </Button>
                         </form>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
